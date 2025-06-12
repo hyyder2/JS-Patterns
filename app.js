@@ -10,9 +10,9 @@
      document.write ("<b>Reverse left Half Payramid<b><br><br>")
       for(let i=1; i<=5;i++) {
         for(let j=2; j<=i; j++)
-            document.write("&nbsp;&nbsp;")
+            document.write("&nbsp;&nbsp; ")
         for(let k=5; k>=i;k--)
-            document.write("*")
+            document.write("* ")
          document.write("<br>")
 
      }
@@ -21,9 +21,9 @@
       document.write ("<b>left Half Payramid<b><br><br>")
        for(let i=1; i<=5; i++){
         for(let k=4; k>=i; k--)
-            document.write("&nbsp;&nbsp;")
+            document.write("&nbsp;&nbsp; ")
         for(let j=1; j<=i; j++)
-            document.write("*")
+            document.write("* ")
          document.write("<br>")
      }
       document.write("<hr>")
@@ -33,10 +33,10 @@
      {
         for(let j=4; j>=i; j--)
        
-        document.write("&nbsp;")
+        document.write("&nbsp; ")
     
     for(let k=1; k<=i; k++)
-    document.write("*" +" ")
+    document.write("*"+"&nbsp;&nbsp; ")
 document.write("<br>")
      }
    document.write("<br>")
@@ -72,5 +72,5 @@ document.write("<br>")
         document.write(num++ +" ")
     document.write("<br>")
      }
-     
-    
+     document.write("<hr>")
+   
